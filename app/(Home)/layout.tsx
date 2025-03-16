@@ -1,4 +1,5 @@
 import Header from "@/components/navBar/Header";
+import TopHead from "@/components/navBar/TopHead";
 
 export default function RootLayout({
   children,
@@ -6,7 +7,8 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <main className="flex justify-between">
+    <main className="flex justify-between bg-gray-500">
+      <TopHead />
       <Header />
         {children}
     </main>
