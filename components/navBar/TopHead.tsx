@@ -1,4 +1,4 @@
-import React from "react";
+// import React, { useState } from "react";
 import Image from "@/node_modules/next/image";
 import home from "../../public/assets/home-outline.svg";
 import person from "../../public/assets/person-outline.svg";
@@ -8,6 +8,7 @@ import contact from "../../public/assets/chatbubble-outline.svg";
 import Link from "@/node_modules/next/link";
 
 const TopHead = () => {
+  // const [active, setActive] = useState("");
   return (
     <div className="flex items-center justify-center mx-auto my-auto">
       <div className="flex shadow-xl shadow-gray-900 justify-center mx-auto top-[10px] rounded-3xl bg-amber-500 h-[50px] p-4 fixed w-[300px]">
