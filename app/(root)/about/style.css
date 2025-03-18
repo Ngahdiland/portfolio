@@ -1,0 +1,46 @@
+@media only screen and (max-width: 980px){
+    .about{
+        height: 100px;
+    }
+    .about h1{
+        font-size: 35px;
+    }
+    .black-side{
+        flex-direction: column;
+    }
+    .black-div{
+        height: 740px;
+        width: 100%;
+    }
+    .block-one{
+        flex-direction: column;
+    }
+    .col-1{
+        border-top: none;
+        border-left: none;
+        border-right: none;
+        border-bottom: 2px solid #FFF;
+        width: 90%;
+        margin: auto;
+    }
+    .borderYes{
+        border: 2px solid #000;
+        padding: 15px 10px 0 10px ;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 30px;
+    }
+    .borderYes div .img{
+        width: 80px;
+    }
+    .iDo{
+        width: 100%;
+    }
+    .noBorder{
+        border-bottom: none;
+    }
+    .col-1 h3{
+        font-size: 17px;
+    }
+}

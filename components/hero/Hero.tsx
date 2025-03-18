@@ -2,10 +2,11 @@ import Image from '@/node_modules/next/image'
 import profile from "../../public/assets/pro.png"
 import React from 'react'
 import Link from '@/node_modules/next/link'
+import "./style.css"
 
 const Hero = () => {
   return (
-    <div className='flex flex-col justify-between w-1/4 bg-amber-500 shadow-2xl shadow-gray-900'>
+    <div className='hero flex flex-col justify-between w-1/4 bg-amber-500 shadow-2xl shadow-gray-900'>
         <div className="">
             <Image src={profile} alt='' className='bg-gray-500' />
         </div>
