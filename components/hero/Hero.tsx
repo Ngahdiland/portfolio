@@ -17,11 +17,11 @@ const Hero = () => {
             <Link href="/about">
                 About Me
             </Link>
-            <Link href="/resume">
-                Resume
-            </Link>
             <Link href="/portfolio">
                 Portfolio
+            </Link>
+            <Link href="/resume">
+                Resume
             </Link>
             <Link href="/contact">
                 Contact

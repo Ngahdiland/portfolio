@@ -22,7 +22,7 @@ const About = () => {
         </p>
       </div>
       <div className="black-side flex justify-between gap-6">
-        <div className="black-div w-2/3 h-[400px] text-amber-50 bg-gray-900 mb-[50px]">
+        <div className="black-div w-2/3 h-[400px] text-amber-50 pt-5 bg-gray-900 mb-[50px]">
           <div className=" block-one flex justify-center items-center w-[90%] mx-auto my-auto">
             <div className="col-1 w-1/2 h-[180px] flex justify-center items-center flex-col border-b-2 border-amber-50">
               <h1 className="text-6xl">3 +</h1>
@@ -34,11 +34,11 @@ const About = () => {
             </div>
           </div>
           <div className=" block-one flex justify-center items-center w-[90%] mx-auto my-auto">
-            <div className="col-1 w-1/2 h-[180px] flex justify-center items-center flex-col border-b-2 border-amber-50">
+            <div className="col-1 w-1/2 h-[180px] flex justify-center items-center flex-col border-amber-50">
               <h1 className="text-6xl">10 +</h1>
               <h3 className="text-3xl">Happy Clients</h3>
             </div>
-            <div className="col-1 noBorder w-1/2 h-[180px] flex justify-center items-center flex-col border-l-2 border-b-2 border-amber-50">
+            <div className="col-1 noBorder w-1/2 h-[180px] flex justify-center items-center flex-col border-l-2 border-amber-50">
               <h1 className="text-6xl">1.2K +</h1>
               <h3 className="text-3xl">Followers</h3>
             </div>
