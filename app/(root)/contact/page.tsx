@@ -39,11 +39,11 @@ const Contact = () => {
               <h1 className="text-6xl">10 +</h1>
               <h3 className="text-3xl">Happy Clients</h3>
             </div>
-            <div className="col-1 noBorder w-1/3 h-[140px] flex justify-center items-center flex-col border-l-2 border-amber-50">
+            <div className="col-1  w-1/3 h-[140px] flex justify-center items-center flex-col border-l-2 border-amber-50">
               <h1 className="text-6xl">1.2K +</h1>
               <h3 className="text-3xl">Followers</h3>
             </div>
-            <div className="col-1 w-1/3 h-[140px] flex justify-center items-center flex-col border-l-2 border-amber-50">
+            <div className="col-1 noBorder w-1/3 h-[140px] flex justify-center items-center flex-col border-l-2 border-amber-50">
               <h1 className="text-6xl">30 +</h1>
               <h3 className="text-3xl">Projects Done</h3>
             </div>
