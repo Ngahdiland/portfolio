@@ -26,13 +26,13 @@ const TopHead = () => {
             <Image src={person} className="w-[30px]" alt="" />
           </Link>
           <Link
-            href="/portfolio"
+            href="/resume"
             className="w-[50px] h-[50px] rounded-3xl hover:bg-gray-500 flex justify-center mt-0"
           >
             <Image src={portfolio} className="w-[30px]" alt="" />
           </Link>
           <Link
-            href="/resume"
+            href="/portfolio"
             className="w-[50px] h-[50px] rounded-3xl hover:bg-gray-500 flex justify-center mt-0"
           >
             <Image src={resume} className="w-[30px]" alt="" />
